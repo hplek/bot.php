@@ -1,7 +1,7 @@
 <?php
 
 
-    $dbtable = "`heroku_cc65da134c5a8d1`.`knowledge`";
+    $dbtable = "`heroku_0f4f193fa6090dc`.`knowledge`";
 
     function getConnection()
     {
@@ -78,8 +78,8 @@
                 'text' => $text
             ];
         }else{
-            $imageUrl = 'https://serene-lowlands-99058.herokuapp.com/member.jpg';
-            $imageMiniUrl = 'https://serene-lowlands-99058.herokuapp.com/membermini.jpg';
+            $imageUrl = 'https://secret-hamlet-58765.herokuapp.com/member.jpg';
+            $imageMiniUrl = 'https://secret-hamlet-58765.herokuapp.com/membermini.jpg';
             $messages = [
                 'type' => 'image',
                 'originalContentUrl' => $imageUrl,
