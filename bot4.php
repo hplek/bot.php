@@ -4,7 +4,7 @@
 
     $conn = getConnection();
 
-    $access_token = 'HdFb3n2OGmwyqNijVDMdTj3S952Mo/MfWtdMC5qieGmgwweN6uBq+d6wTLV14P9A9MYU4dGgViJ00h72pBTWQFkffLasm3LStlW/bLnoiq6eeBmgq0shYh7zQuDd5WvpbAd/HYUluriGFOZXQ57+gwdB04t89/1O/w1cDnyilFU=';
+    $access_token = 'R6WDXEti6QF2fy/cCru6/ATFjgRij0EsoG7gqfIgSOP0dJa8zxwrHPrrpT6NrFyIwfdlluu6umj1iZZ1+OllRhrVoaOmDA8dJeZsATCI19pON5qmxVfGZU4uxlaYJymgqfAlsrADRmuyjZHUt2GvJwdB04t89/1O/w1cDnyilFU=';
 
     $content = file_get_contents('php://input');
     $events = json_decode($content, true);
