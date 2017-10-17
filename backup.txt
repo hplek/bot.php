@@ -1,0 +1,9 @@
+    $sql = "SELECT * FROM `heroku_cc65da134c5a8d1`.`status` WHERE staId = 1";
+    if ($result = $conn->query($sql)) {
+        
+            while ($obj = $result->fetch_object()) {
+                echo $obj->sta;
+            }
+        
+            $result->close();
+    }
