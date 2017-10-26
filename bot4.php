@@ -25,7 +25,7 @@
 
                     addAnswer($key, $ans);
 
-                    $text = 'ช้อนรู้แล้ว ช้อนไม่ได้แก่แบบเช่นะที่จะจำไม่ได้อะ';
+                    $text = 'รับบัญชาเมี้ยว';
                     $data = setData(1,$event['replyToken'],$text);
                     sendMessage($data,$access_token);
 
